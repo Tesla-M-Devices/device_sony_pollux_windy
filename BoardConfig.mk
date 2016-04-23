@@ -25,9 +25,9 @@ TARGET_KERNEL_CONFIG := fusion3_pollux_windy_defconfig
 
 # Optimizations
 CLANG_O3 := true
-STRICT_ALIASING := false
+STRICT_ALIASING := true
 KRAIT_TUNINGS := true
-GRAPHITE_OPTS := false
+GRAPHITE_OPTS := true
 ENABLE_GCCONLY := true
 ENABLE_SANITIZE := true
 
